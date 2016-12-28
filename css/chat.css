@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font: 13px Helvetica, Arial;
+}
+form {
+    background: #000;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+form input {
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    margin-right: .5%;
+}
+form button {
+    width: 9%;
+    background: rgb(130, 224, 255);
+    border: none;
+    padding: 10px;
+}
+#messages {
+    display:inline-block;
+    width:80%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border:none;
+    height:100%;
+    margin-bottom:45px;
+}
+#messages li {
+    padding: 5px 10px;
+}
+#messages li:nth-child(odd) {
+    background: #eee;
+}
+#messages span.nickname {
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    width: 100px;
+}
+div.userList {
+    display:inline-block;
+    text-align: center;
+    width: 20%;
+    border:none;
+    float:left;
+    background-color:#ccc;
+}
+#userList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:1054px;
+}
+#userList li {}
+#before {
+    text-align: center;
+    margin-top: 20%;
+}
+#before p{
+    font-weight:bold;
+    color:#c83636;
+    font-size:20px;
+}
+#before input{
+    width:200px;
+    height:30px;
+}
+#joinBtn{
+    font-weight:bold;
+    width:60px;
+    height:30px;
+    line-height: 30px;
+}
+#after {
+    display: none;
+    min-height:100%;
+}
+.noti {
+    text-align: center;
+    color: blue;
+}
